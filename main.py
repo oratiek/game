@@ -15,7 +15,7 @@ gameDisplay = pg.display.set_mode((display_width,display_height))
 pg.display.set_caption("Car Game")
 
 # car imgae
-car_image = pg.image.load("/Users/miyajimakeitarou/data_root/image_data/face_data/suzu_face/0.jpg")
+car_image = pg.image.load("0.jpg")
 car_image = pg.transform.scale(car_image, (180,180))
 
 def car(x,y):
